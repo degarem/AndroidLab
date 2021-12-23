@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragmentMailLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#191515"
+    tools:context=".MailFragment">
+
+    <EditText
+        android:id="@+id/TextEmailAddress"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Mail"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/buttonMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="apply"
+        android:translationY="75dp" />
+
+</FrameLayout>

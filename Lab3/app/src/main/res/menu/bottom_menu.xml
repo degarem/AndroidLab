@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/listFragment"
+        android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+        android:title="List"/>
+    <item
+        android:id="@+id/mailFragment"
+        android:icon="@drawable/ic_baseline_email_24"
+        android:title="Mail"/>
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Settings"/>
+</menu>
